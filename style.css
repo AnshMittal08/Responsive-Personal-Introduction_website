@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.container
+{
+    font-size: 2.2rem;
+    background-color: #222831;
+    color: #00ADB5;
+    position: relative;
+    text-align: center;
+    top: 0;
+    margin-bottom: 100px;
+}
+.container span
+{
+    text-decoration: underline;
+}
+.container h1
+{
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+}
+.top-cloud
+{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+.lower-cloud
+{
+    position: absolute;
+    left: 300px;
+}
+img
+{
+    overflow-clip-margin: content-box;
+  overflow: clip;
+}
+div{
+    display: block;
+}
+.c1
+{
+    text-align: center;
+    background-color: #EEEEEE;
+}
+.my-pic
+{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.parent h1
+{
+    color: #00ADB5;
+    margin-bottom: 50px;
+}
+.parent p
+{
+    width: 200px;
+    margin: auto;
+}
+hr{
+    margin: 100px auto;
+    width: 10%;
+    border:dotted #222831 2px
+}
+.grid-parent
+{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: repeat(0.5, 0.5fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.grid-image
+{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+.grid-text h2
+{
+    color: #007d84;
+}
+.grid-text
+{
+    margin-left: 20px;
+}
+.contact-me h1
+{
+    color: #00ADB5;
+    margin-bottom: 40px;
+}
+.contact-me h3
+{
+    color: #00ADB5;
+    margin-bottom: 30px;
+}
+.btn
+{
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-size: 1.25rem;
+    color: #EEEEEE;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.contact-me
+{
+    margin-bottom: 100px;
+}
+.footer
+{
+    background-color: #222831;
+    padding: 50px 0 20px;
+}
+.flex
+{
+    display: flex;
+    color: #EEEEEE;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+.flex a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.footer p
+{
+    padding:50px 0 10px;
+    color: #EEEEEE;
+}
+@media (max-width:600px)
+{
+    .mountain
+    {
+        width:20rem;
+    }
+    .lower-cloud
+    {
+        left: 200px;
+    }
+    .grid-parent
+    {
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
+@media (max-width:435px)
+{
+    .grid-image
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .grid-parent
+    {
+        margin-left: 40px;
+        margin-right: auto;
+    }
+}
